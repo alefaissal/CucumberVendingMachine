@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="io.cucumber.vm.RunCucumberTest" time="0.078" errors="0" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/alexandre/eclipse-workspace/VendingMachine"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/alexandre/eclipse-workspace/VendingMachine"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/2w/6slgqz5520781gbw22tpzh3w0000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/alexandre/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/alexandre"/>
+    <property name="user.timezone" value="America/Vancouver"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="alexandre"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.078">
+    <skipped/>
+    <system-out>
+@tag @tag1
+Scenario: Have Product and user have exact amount of money        &amp;#27;[90m# io/cucumber/vm/vm.feature:23&amp;#27;[0m
+chips...2.0
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser want to buy &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;chips&quot;&amp;#27;[0m                                  &amp;#27;[90m# io.cucumber.vm.StepDefs.user_want_to_buy_chips1(java.lang.String)&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33muser insert the 25 dolars&amp;#27;[0m                                  &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpress the button with the code&amp;#27;[0m                              &amp;#27;[90m# io.cucumber.vm.StepDefs.press_the_button_with_the_code1()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mThe &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;ch&quot;&amp;#27;[0m&amp;#27;[36m leaves the machine and the stock reduces in 1unit&amp;#27;[0m &amp;#27;[90m# io.cucumber.vm.StepDefs.the_chips_leaves_the_machine_and_the_stock_reduces_in_1unit(java.lang.String)&amp;#27;[0m
+</system-out>
+    <system-err>Mar. 10, 2020 3:52:13 P.M. io.cucumber.junit.Cucumber &lt;init&gt;
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+</system-err>
+  </testcase>
+</testsuite>
