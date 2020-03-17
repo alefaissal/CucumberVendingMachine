@@ -22,7 +22,7 @@ Feature: Vending Machine
   @tag1
   Scenario Outline: Have Product and user have exact amount of money
     Given user want to buy <product>
-    When user insert the <money> dollars
+    When user insert the <money>dolars
     And press the button with the code
     Then The <product> leaves the machine and the stock reduces in 1unit
 
@@ -40,10 +40,10 @@ Feature: Vending Machine
   @tag2
   Scenario Outline: Have Product and user to receive change
     Given user want to buy <product>
-    When user insert the <money> dollars
+    When user insert the <money>dollars
     And press the button with the code
     Then The <product> leaves the machine and the stock reduces in 1unit
-    And VM give <change> back
+    And VM give <change>back
 
     Examples: 
       | product     | money | change |
@@ -59,9 +59,9 @@ Feature: Vending Machine
   @tag3
   Scenario Outline: User give less money then price
     Given user want to buy <product>
-    When user insert the <money> dollars
+    When user insert the <money>dollars
     And press the button with the code
-    Then The VM ask for "still missing this amount: " <missing> dollars
+    Then The VM ask for "still missing this amount: " <missing>dollars
 
     Examples: 
       | product     | money | missing |

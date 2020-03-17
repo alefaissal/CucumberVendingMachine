@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="24" failures="0" name="io.cucumber.vm.RunCucumberTest" time="0.15" errors="0" skipped="0">
+<testsuite tests="24" failures="0" name="io.cucumber.vm.RunCucumberTest" time="0.137" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.2+8"/>
@@ -41,7 +41,7 @@
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -e"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -57,27 +57,27 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.076"/>
+  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.066"/>
+  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.003"/>
+  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.003"/>
   <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.004"/>
-  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.004"/>
+  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.003"/>
   <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.013"/>
-  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.005"/>
   <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.003"/>
   <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.002"/>
-  <testcase classname="Vending Machine" name="Have Product and user have exact amount of money" time="0.004"/>
+  <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.004"/>
+  <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.003"/>
   <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.003"/>
   <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.003"/>
   <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.002"/>
   <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.003"/>
+  <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.004"/>
   <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.003"/>
-  <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.002"/>
-  <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.004"/>
-  <testcase classname="Vending Machine" name="Have Product and user to receive change" time="0.004"/>
+  <testcase classname="Vending Machine" name="User give less money then price" time="0.003"/>
+  <testcase classname="Vending Machine" name="User give less money then price" time="0.002"/>
+  <testcase classname="Vending Machine" name="User give less money then price" time="0.001"/>
   <testcase classname="Vending Machine" name="User give less money then price" time="0.003"/>
   <testcase classname="Vending Machine" name="User give less money then price" time="0.001"/>
-  <testcase classname="Vending Machine" name="User give less money then price" time="0.002"/>
-  <testcase classname="Vending Machine" name="User give less money then price" time="0.002"/>
-  <testcase classname="Vending Machine" name="User give less money then price" time="0.002"/>
   <testcase classname="Vending Machine" name="User give less money then price" time="0.002"/>
   <testcase classname="Vending Machine" name="User give less money then price" time="0.001"/>
   <testcase classname="Vending Machine" name="User give less money then price" time="0.002"/>
